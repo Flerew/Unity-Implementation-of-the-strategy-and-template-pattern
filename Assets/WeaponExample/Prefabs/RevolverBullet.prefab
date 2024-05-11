@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4448769847018032115}
   - component: {fileID: 7671234372365479468}
   - component: {fileID: 6724299073841676075}
-  - component: {fileID: 7450023018533928910}
+  - component: {fileID: 6022620055992968265}
   m_Layer: 0
   m_Name: RevolverBullet
   m_TagString: Untagged
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ad8247336dc68844f93701e67351a09c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7450023018533928910
+--- !u!114 &6022620055992968265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1732146356233695948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2720f45761ec8434fac986cc010a24f0, type: 3}
+  m_Script: {fileID: 11500000, guid: f1c0535fca26fdc49bc315645ca0b63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _color: {r: 1, g: 0, b: 0.38964748, a: 1}

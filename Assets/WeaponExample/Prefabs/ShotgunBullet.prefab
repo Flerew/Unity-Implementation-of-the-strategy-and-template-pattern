@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4448769847018032115}
   - component: {fileID: 7671234372365479468}
   - component: {fileID: 6724299073841676075}
-  - component: {fileID: 7199361186758972579}
+  - component: {fileID: -7828961043382746717}
   m_Layer: 0
   m_Name: ShotgunBullet
   m_TagString: Untagged
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7199361186758972579
+--- !u!114 &-7828961043382746717
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1732146356233695948}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03ca4e269ddbd9446a8969b3bbbdc5ba, type: 3}
+  m_Script: {fileID: 11500000, guid: f1c0535fca26fdc49bc315645ca0b63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _color: {r: 0.1509434, g: 0.10879317, b: 0.10879317, a: 1}
