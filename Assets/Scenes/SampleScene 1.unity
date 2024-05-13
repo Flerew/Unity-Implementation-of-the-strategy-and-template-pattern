@@ -934,7 +934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2bd70c29eac3a4abc57169a4e6c182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gun: {fileID: 0}
 --- !u!4 &647271807
 Transform:
   m_ObjectHideFlags: 0
@@ -959,13 +958,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 647271805}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f3e92cd28e8b048b2d3e43e75e22c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 33d96563903a501498ce2815a42cb7db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunList:
-  - {fileID: 286416406}
+  _gunList:
   - {fileID: 2037269000}
+  - {fileID: 286416406}
   - {fileID: 336196822}
+  _playerInput: {fileID: 647271806}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

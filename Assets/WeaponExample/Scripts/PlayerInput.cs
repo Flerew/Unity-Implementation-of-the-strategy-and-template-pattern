@@ -1,29 +1,23 @@
+using System;
 using UnityEngine;
 
-public class PlayerInput : MonoBehaviour
-{
-    [SerializeField] private Gun gun;
-
-    private GunSwitcher gunSwitcher;
-
-    private void Awake()
+namespace Assets.Weapons {
+    public class PlayerInput : MonoBehaviour
     {
-        gunSwitcher = GetComponent<GunSwitcher>();
-    }
+        public event Action PlayerShoot;
+        public event Action PlayerSwitchGun;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        private void Update()
         {
-            if (gun != null)
-                gun.Shoot();
-            else
-                Debug.Log("Push E to set your weapon");
-        }
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                PlayerShoot?.Invoke();
+            }
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            gunSwitcher.SwitchGun(ref gun);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                PlayerSwitchGun?.Invoke();
+            }
         }
     }
 }
